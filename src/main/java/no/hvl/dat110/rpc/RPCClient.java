@@ -1,6 +1,5 @@
 package no.hvl.dat110.rpc;
 
-import no.hvl.dat110.TODO;
 import no.hvl.dat110.messaging.*;
 
 public class RPCClient {
@@ -20,7 +19,7 @@ public class RPCClient {
 		
 		connection = msgclient.connect();
 
-		// TODO - END
+		
 	}
 	
 	public void disconnect() {
